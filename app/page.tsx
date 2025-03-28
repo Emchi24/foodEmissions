@@ -69,7 +69,7 @@ export default function EmissionsCalculator() {
 
             <div className="mt-4 text-sm text-muted-foreground">
               <a
-                href="https://github.com/Emchi24/BeefEmissionsCalculator"
+                href="https://github.com/Emchi24/foodEmissions"
                 className="inline-flex items-center hover:underline text-primary"
                 target="_blank"
                 rel="noopener noreferrer"
