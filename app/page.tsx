@@ -62,7 +62,8 @@ export default function EmissionsCalculator() {
             <p className="text-muted-foreground mb-6">
               This application calculates the greenhouse gas emissions from your weekly beef consumption and compares
               them to the emissions from other foods. After entering your consumption amount, the app computes the
-              emissions and displays the results in a chart.
+              emissions and displays the results in a chart. If you are accessing this website from a mobile device,
+              please switch to landscape mode.
             </p>
 
             <EmissionsForm onSubmit={handleSubmit} loading={loading} />
@@ -91,6 +92,14 @@ export default function EmissionsCalculator() {
                 </svg>
                 View source code on GitHub
               </a>
+            </div>
+            <div>
+            <a
+                href="https://www.dw.com/de/faktencheck-wie-sch%C3%A4dlich-f%C3%BCr-das-klima-ist-der-verzehr-von-fleisch-wirklich/a-63252828"
+                className="inline-flex items-center hover:underline text-primary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >The informations on greenhouse gas emissions from food comes from this source</a>
             </div>
           </div>
 
