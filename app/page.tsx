@@ -61,7 +61,7 @@ export default function EmissionsCalculator() {
             <h2 className="text-2xl font-semibold mb-4">How much beef do you eat in a week?</h2>
             <p className="text-muted-foreground mb-6">
               This application calculates the greenhouse gas emissions from your weekly beef consumption and compares
-              them to the emissions from other foods. After entering your consumption amount, the app computes the
+              them to the emissions from other foods. After entering your consumption amount, the app calculates the
               emissions and displays the results in a chart. If you are accessing this website from a mobile device,
               please switch to landscape mode.
             </p>
