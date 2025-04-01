@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Food Emissions Calculator',
-  description: 'Created with v0Measure how many greenhouse gases your beef consumption causes each week',
+  description: 'Measure how many greenhouse gases your beef consumption causes each week',
 }
 
 export default function RootLayout({
